@@ -1,0 +1,13 @@
+#install
+pip3
+python3
+pip3 install PyQt5
+#To use Virtual Environment
+pip3 install virtualenv
+python3 -m venv <env>
+#Activate the Virtual Environment
+source env/bin/activate
+ env/Scripts/activate.bat //In CMD
+ env/Scripts/Activate.ps1 //In Powershell
+#To check everything istalled
+pip3 list
